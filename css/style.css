@@ -16,7 +16,7 @@ body {
 }
 
 *, a {
-  color: #ffffff;
+  color: #1d434e;
 }
 
 a, p {
@@ -52,7 +52,7 @@ p {
 }
 
 section {
-  background-color: #171e2a;
+  background-color: #fce8bc;
 }
 
 .container, .container--small {
@@ -114,12 +114,12 @@ input[type="text"], input[type="email"] {
   border: none;
   border-radius: 30px;
   font-size: 0.9rem;
-  color: #0a1423;
+  color: #efefda;
   padding: 17px 40px;
 }
 
 header {
-  background-color: #1b2330;
+  background-color: #efefda;
 }
 
 header .container, header .container--small {
@@ -140,12 +140,12 @@ header .container, header .container--small {
 }
 
 header img {
-  width: 83px;
+  width: 100px;
 }
 
 @media screen and (min-width: 999px) {
   header img {
-    width: 185px;
+    width: 200px;
   }
 }
 
@@ -165,7 +165,7 @@ header a:hover {
 
 .hero {
   position: relative;
-  background-color: #1b2330;
+  background-color: #efefda;
 }
 
 .hero:after {
@@ -438,7 +438,7 @@ header a:hover {
   border-radius: 10px;
   -webkit-box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.5);
-  background-color: #1b2330;
+  background-color: #efefda;
   padding: 45px 30px 45px 30px;
   text-align: center;
 }
@@ -474,7 +474,7 @@ header a:hover {
 }
 
 .footer {
-  background-color: #0a1423;
+  background-color: #efefda;
   font-size: 1rem;
 }
 
@@ -621,6 +621,6 @@ header a:hover {
 
 .footer__social svg:hover {
   background-color: #ffffff;
-  fill: #0a1423;
+  fill: #efefda;
 }
 /*# sourceMappingURL=style.css.map */

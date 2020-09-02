@@ -17,10 +17,10 @@ header {
     }
 
     img {
-        width: 83px;
+        width: 100px;
 
         @include breakpoint(large) {
-            width: 185px;
+            width: 200px;
         }
     }
 
