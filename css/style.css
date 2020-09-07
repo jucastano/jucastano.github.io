@@ -63,7 +63,7 @@ section {
 
 @media screen and (min-width: 999px) {
   .container, .container--small {
-    padding: 73px 60px 87px 60px;
+    padding: 43px 60px 40px 60px;
   }
 }
 
@@ -73,8 +73,8 @@ section {
 
 button, .button, button--large, .button--large {
   border: none;
-  background: -webkit-gradient(linear, left top, right top, from(#64e1d9), to(#329ecc));
-  background: linear-gradient(to right, #64e1d9, #329ecc);
+  background: -webkit-gradient(linear, left top, right top, from(#d13123), to(#970c10));
+  background: linear-gradient(to right, #d13123, #970c10);
   font-size: 0 0.875rem;
   font-weight: 700;
   padding: 15px 20px;
@@ -91,8 +91,8 @@ button, .button, button--large, .button--large {
 }
 
 button:hover, .button:hover, button--large:hover, .button--large:hover {
-  background: -webkit-gradient(linear, left top, right top, from(#329ecc), to(#329ecc));
-  background: linear-gradient(to right, #329ecc, #329ecc);
+  background: -webkit-gradient(linear, left top, right top, from(#970c10), to(#970c10));
+  background: linear-gradient(to right, #970c10, #970c10);
 }
 
 button--large, .button--large {
@@ -114,7 +114,7 @@ input[type="text"], input[type="email"] {
   border: none;
   border-radius: 30px;
   font-size: 0.9rem;
-  color: #efefda;
+  color: #3b435f;
   padding: 17px 40px;
 }
 
@@ -175,7 +175,7 @@ header a:hover {
   width: 100%;
   height: 40vw;
   bottom: 0px;
-  background-image: url("/images/bg-curvy-mobile.svg");
+  background-image: url("");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -183,7 +183,7 @@ header a:hover {
 
 @media screen and (min-width: 699px) {
   .hero:after {
-    background-image: url("/images/bg-curvy-desktop.svg");
+    background-image: url("/images/hero1.png");
     height: 33vw;
   }
 }
@@ -233,7 +233,7 @@ header a:hover {
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  gap: 6vw 10vw;
+  gap: 12vw 10vw;
   margin: 0 auto;
 }
 
@@ -246,7 +246,7 @@ header a:hover {
 
 @media screen and (min-width: 999px) {
   .features .feature-grid {
-    gap: 7vw 7vw;
+    gap: 3vw 7vw;
   }
 }
 
@@ -264,7 +264,7 @@ header a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 90px;
+  height: 150px;
   margin-bottom: 30px;
 }
 
@@ -325,8 +325,8 @@ header a:hover {
   background-repeat: no-repeat;
   background-position: right center;
   padding-right: 25px;
-  color: #64e1d9;
-  border-bottom: 1px solid #64e1d9;
+  color: #d13123;
+  border-bottom: 1px solid #d13123;
   -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
 }
@@ -381,7 +381,7 @@ header a:hover {
 .quotes .quote {
   position: relative;
   z-index: 1;
-  background-color: #20293b;
+  background-color: #1d434e;
   padding: 30px 24px 24px 24px;
   border-radius: 5px;
 }
@@ -474,7 +474,7 @@ header a:hover {
 }
 
 .footer {
-  background-color: #efefda;
+  background-color: #1d434e;
   font-size: 1rem;
 }
 
@@ -621,6 +621,6 @@ header a:hover {
 
 .footer__social svg:hover {
   background-color: #ffffff;
-  fill: #efefda;
+  fill: #1d434e;
 }
 /*# sourceMappingURL=style.css.map */
