@@ -8,13 +8,13 @@
 
     .container {
         display: grid;
-        grid-row-gap: 35px;
+        grid-row-gap: 15px;
         grid-column-gap: 0px;
         grid-template-columns: 1fr;
-        grid-template-areas: "logo" "address" "contact" "links1" "links2" "social";
+        grid-template-areas: "logo" "contact" "links1" "links2" "social";
 
         @include breakpoint (medium) {
-            grid-column-gap: 25px;
+            grid-column-gap: 5px;
 
         }
 
@@ -28,14 +28,14 @@
         @include breakpoint (xlarge) {
             grid-column-gap: 60px;
         }
-
-
     }
 
     &__logo {
+        img {
+            max-width: 100%;
+        }
         @include breakpoint (large) {
             grid-area: logo;
-            
         }
 
     }
