@@ -356,6 +356,10 @@ header a:hover {
   border-bottom: 1px solid #ffffff;
 }
 
+.quotes {
+  padding-bottom: 200px;
+}
+
 .quotes_grid {
   position: relative;
   display: -ms-grid;
@@ -454,6 +458,14 @@ header a:hover {
   font-size: 0.5em;
 }
 
+.signup {
+  position: absolute;
+  background: transparent;
+  width: 100%;
+  -webkit-transform: translateY(-248px);
+          transform: translateY(-248px);
+}
+
 .signup__block {
   border-radius: 10px;
   -webkit-box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.5);
@@ -496,6 +508,7 @@ header a:hover {
 .footer {
   background-color: #1d434e;
   font-size: 1rem;
+  padding-top: 200px;
 }
 
 .footer a:hover {
